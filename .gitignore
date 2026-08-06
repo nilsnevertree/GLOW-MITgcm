@@ -116,3 +116,7 @@ core
 /verification/*/tr_run.*
 
 /tools/TAP_support/ADFirstAidKit/*.gch
+
+# Ignore all files in the build directory
+/utils/python/MITgcmutils/build*
+*.egg-info
